@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+</head>
+<body> 
+<body> 
+    <div class="formulario">
+    <div class="dados pessoais ">
+    <fieldset> 
+    <legend> <b>Dados Pessoais</b> </legend>
+        <label for="nome">Nome: </label> <input type="text" name="nome" id="nome">
+        <label for="sobrenome">Sobrenome: </label><input type="text" name="sobrenome" id="sobrenome">
+        <br>
+        <label for="nascimento">Nascimento: </label> <input type="date" name="nascimento" id="nascimento">
+        <br>
+        <label for="rg">RG:   </label><input type="text" name="rg" id="rg" maxlength="10"
+        size="10">
+        <br>
+        <label for="cpf">CPF:   </label><input type="text" id="cpf" maxlength="9"
+        size="9"> - <input type=cpf" id="cpf" maxlength="2"
+        size="2">
+    </div>
+    </fieldset>
+    <br>
+    </div>
+      <div classe="dados de endereço">
+        <fieldset>
+            <legend><b>Dados de Endereço</b></legend>
+            <label for="rua">Rua: </label><input type="text" name="rua" id="rua"> 
+            <label for="nuemro">Nuemro: </label> <input type="text" name="nuemro" id="nuemro" maxlength="5" size="5">
+            <br>
+            <label for="bairro">Bairro: </label><input type="text" name="bairro" id="bairro">
+            <br>
+            <label for="estado">Estado: </label> <select name="estado" id="estado">
+                <option value="acre">Acre</option>
+                <option value="alagoas">Alagoas</option>
+                <option value="amapá">Amapá</option>
+                <option value="amazonas">Amazonas</option>
+                <option value="bahia">Bahia</option>
+                <option value="ceará">Ceará</option>
+                <option value="espírito santo">Espírito Santo</option>
+                <option value="goiás">Goiás</option>
+                <option value="maranhão">Maranhão</option>
+                <option value="mato grosso">Mato Grosso</option>
+                <option value="mato grosso do sul">Mato Grosso do Sul</option>
+                <option value="minas gerais">Minas Gerais</option>
+                <option value="pará">Pará</option>
+                <option value="paraíba">Paraíba</option>
+                <option value="paraná">Paraná</option>
+                <option value="pernambuco">Pernambuco</option>
+                <option value="piauí">Piauí</option>
+                <option value="rio de janeiro">Rio de Janeiro</option>
+                <option value="rio grande do norte">Rio Grande do Norte</option>
+                <option value="rio grande do sul">Rio Grande do Sul</option>
+                <option value="rondônia">Rondônia</option>
+                <option value="roraima">Roraima</option>
+                <option value="santa catarina">Santa Catarina</option>
+                <option value="são paulo">São Paulo</option>
+                <option value="sergipe">Sergipe</option>
+                <option value="tocantins">Tocantins</option>
+                </select>
+                <br>
+              <label for="cidade">Cidade: </label><input type="text" name="cidade" id="cidade">
+              <br>
+              <label for="cep">CEP: </label><input type="text" name="cep" id="cep" maxlength="5" size="5"> - <input type="text" name="cep" id="cep" maxlength="3" size="3">
+        </fieldset>
+      </div>
+      <br>
+      <div class="dados de login">
+        <fieldset>
+            <legend><b>Dados de login</b></legend>
+            <label for="e-mail">E-mail: </label><input type="email" name="e-mail" id="e-mail">
+            <br>
+            <label for="imagem de perfil">Imagem de perfil: </label> <input type="file" name="imagem de perfil" id="imagem de perfil">
+            <br>
+            <label for="login de usuário">Login de usuário: </label><input type="text" name="login de usuário" id="login de usuário">
+            <br>
+            <label for="senha">Senha: </label> <input type="password" name="senha" id="senha">
+            <br>
+            <label for="senha">Confirme a senha: </label> <input type="password" name="senha" id="senha">
+        </fieldset>
+      </div>
+      <br>
+      <div class="finalizar">
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+      </div>
+    </div>
+</body>
+</html>
