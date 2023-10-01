@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stlyles.css">
+    
+    <title>Calcualdora</title>
+</head>
+<body>
+    <h1>Execulte sua conta!</h1>
+    <div class="calcualdora">
+    <input type="text" id="visor" size="16" readonly> <!--readonly seve para qnd apertar no botão aparecer na tela "visor"-->
+   <br>
+   <div class="botoes"> 
+    <table>
+    <tr>
+    <td><button id="botao" onclick="limpar()">CE</button>
+    <button id="botoesdivesos" onclick="operadores('/')">/</button></td>
+    </tr>
+    <tr>
+    <td><button id="botoesdivesos" onclick="adicionarNumero('7')">7</button>
+    <button id="botoesdivesos"  onclick="adicionarNumero('8')">8</button>
+    <button id="botoesdivesos" onclick="adicionarNumero('9')">9</button>
+    <button id="botoesdivesos" onclick="operadores('*')">*</button></td>
+</tr>
+<tr>
+    <td><button id="botoesdivesos" onclick="adicionarNumero('4')">4</button>
+    <button id="botoesdivesos" onclick="adicionarNumero('5')">5</button>
+    <button id="botoesdivesos" onclick="adicionarNumero('6')">6</button>
+    <button id="botoesdivesos" onclick="operadores('-')">-</button> </td>
+</tr>
+<tr>
+    <td><button id="botoesdivesos" onclick="adicionarNumero('1')">1</button>
+    <button id="botoesdivesos" onclick="adicionarNumero('2')">2</button>
+    <button id="botoesdivesos" onclick="adicionarNumero('3')">3</button>
+    <button id="botoesdivesos" onclick="operadores('+')">+</button></td> 
+    </tr>
+    <tr>
+    <td><button id="botoesdivesos" onclick="adicionarNumero('0')">0</button>
+    <button id="igual" onclick="calcular()">=</button></td>
+</tr>
+</table>
+    </div>
+    <script src="script.js"></script>
+</div>
+</body>
+</html>
